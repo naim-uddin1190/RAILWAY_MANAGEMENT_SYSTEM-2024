@@ -1,0 +1,209 @@
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url() no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-brand img {
+  width: 50px; 
+  height: 50; 
+}
+
+
+
+/*Header start*/
+
+header {
+  background-color: white;
+  color: #fff;
+  padding: 10px 0;
+  font-size:50px ;
+}
+
+
+.heading {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* Navbar */
+
+
+.navbar-nav .nav-item {
+  border-radius: 20px;
+  border-style:solid 2px;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight:bold;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/*Header End*/
+
+/*Middle Start*/
+form{
+  
+    text-align:center;
+    margin-left: 100px ;
+    padding: 2px;
+    color:black;
+    font-weight: bold;
+    
+    font-style:normal;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.formD{
+    width:1300px;
+    height: 400px;
+    background-position: center;
+    margin:0 auto;
+    
+    border-radius: 50px;
+    background-image: url(https://img.freepik.com/free-vector/natural-environment-lanscape-scene_1308-70100.jpg) ;
+    
+   
+    
+    
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+
+.search {
+    width:800px;
+    height:30px;
+    background-color:green;
+    color:white;
+    text-align:center;
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border-left: 20px;
+    background-position: center;
+    margin:0 auto;
+    
+    
+    
+
+}
+
+.seatlink{
+  text-decoration: none;
+  color: white;
+}
+.search:hover{
+    background-color: cornflowerblue;
+    
+}
+
+/*Online Payment img Start*/
+
+.img {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
+  max-width: 100%; 
+}
+
+.img img {
+  max-width: 50px; 
+  margin: 10px; 
+}
+/*Online Payment */
+
+/*Middle End*/
+
+/*Footer STart*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(59, 56, 56);
+  width: 100%;
+  color: white;
+  z-index: 1000; 
+}
+
+.foot h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.text p {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.icon {
+  text-align: center; 
+}
+
+.icon i {
+  font-size: 24px; 
+  margin: 0 10px; 
+  color: white; 
+}
+
+
+/*Footer End*/
+
+/*Mobile view*/
+@media (max-width:1000px){
+    .formD{
+        width:358px;
+        height:370px;
+    }
+    .search{
+        width:293px;
+    }
+    header{
+        width:100%;
+    }
+footer{
+    width:100%;
+}
+.text p{
+    width:350px;
+}
+.select{
+    height:268x;
+}
+.plane{
+    max-width:340px;
+}
+
+
+}
+/*Dekstop view*/
+@media (min-width:1024px){
+
+}
+/*Tablet view*/
+@media (min-width:769px) and (max-width:1023px){
+
+}
+
+
+
